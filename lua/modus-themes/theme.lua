@@ -80,7 +80,7 @@ function M.setup()
 		StatusLine = { fg = c.fg_active, bg = c.bg_active }, -- Status line of current window
 		StatusLineNC = { fg = c.fg_inactive, bg = c.bg_inactive }, -- Status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
 		VertSplit = { fg = c.border }, -- The column separating vertically split windows
-		WinSeparator = { fg = c.border, bold = true }, -- The column separating vertically split windows
+		WinSeparator = { fg = c.border, bold = false }, -- The column separating vertically split windows
 		DiffAdd = { fg = c.fg_added, bg = c.bg_added }, -- Diff mode: Added line |diff.txt|
 		DiffChange = { fg = c.fg_changed, bg = c.bg_changed }, -- Diff mode: Changed line |diff.txt|
 		DiffDelete = { fg = c.fg_removed, bg = c.bg_removed }, -- Diff mode: Deleted line |diff.txt|
@@ -336,7 +336,7 @@ function M.setup()
 
 		-- NvimTree
 		NvimTreeNormal = { fg = c.fg_active, bg = c.bg_active },
-		NvimTreeWinSeparator = { fg = c.border, bg = c.border },
+		NvimTreeWinSeparator = { fg = c.border, bg = c.bg_active },
 		NvimTreeNormalNC = { fg = c.fg_inactive, bg = c.bg_inactive },
 		NvimTreeRootFolder = { fg = c.blue, bold = true },
 		NvimTreeGitDirty = { fg = c.fg_changed },
