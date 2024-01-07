@@ -11,11 +11,11 @@ M.modus_operandi = {
 
 	-- Base values
 	bg_main = "#ffffff",
-	bg_dim = "#f2f2f2",
-	bg_alt = "#f0f0f0",
+	bg_dim = "#ffffff",
+	bg_alt = "#ffffff",
 	fg_main = "#000000",
-	fg_dim = "#595959",
-	fg_alt = "#193668",
+	fg_dim = "#000000",
+	fg_alt = "#000000",
 	border = "#9f9f9f",
 
 	-- Common foreground values
@@ -96,10 +96,10 @@ M.modus_operandi = {
 	bg_char_1 = "#ffaaff",
 	bg_char_2 = "#dff000",
 	-- Common active/inactive colors
-	bg_active = "#c4c4c4",
-	bg_inactive = "#e0e0e0",
+	bg_active = "#ffffff",
+	bg_inactive = "#ffffff",
 	fg_active = "#0a0a0a",
-	fg_inactive = "#404148",
+	fg_inactive = "#0a0a0a",
 	-- Status line specific colors
 	bg_status_line_active = "#c8c8c8",
 	fg_status_line_active = "#0a0a0a",
