@@ -40,7 +40,7 @@ function M.setup()
 		FloatBorder = { fg = c.border, bg = c.bg_active }, -- Float Border
 		FloatTitle = { fg = c.border, bg = c.bg_active }, -- Float Title
 		Folded = { fg = c.green_faint, bg = c.bg_dim }, -- Line for closed folds
-		LineNr = { fg = c.fg_dim, bg = c.bg_dim }, -- Line number for ":number" and ":#" commands, and when 'number', or 'relativenumber' is set for the cursor line
+		LineNr = { fg = c.fg_dim, bg = c.bg_active }, -- Line number for ":number" and ":#" commands, and when 'number', or 'relativenumber' is set for the cursor line
 		CursorLineNr = { fg = c.fg_active, bg = c.bg_active, bold = true }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
 		SignColumn = { fg = c.fg_dim, bg = bg_main }, -- Column where |signs| are displayed
 		CursorLine = { fg = c.none, bg = c.bg_hl_line }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.

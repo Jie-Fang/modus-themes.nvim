@@ -11,7 +11,7 @@ M.modus_operandi = {
 
 	-- Base values
 	bg_main = "#ffffff",
-	bg_dim = "#ffffff",
+	bg_dim = "#dee0df",
 	bg_alt = "#ffffff",
 	fg_main = "#000000",
 	fg_dim = "#000000",
@@ -65,7 +65,7 @@ M.modus_operandi = {
 	bg_green_intense = "#8adf80",
 	bg_yellow_intense = "#f3d000",
 	bg_blue_intense = "#bfc9ff",
-	bg_magenta_intense = "#dfa0f0",
+	bg_magenta_intense = "#bfc9ff",
 	bg_cyan_intense = "#a4d5f9",
 
 	-- Subtle should be combined with fg_dim, fg_alt, fg_main
@@ -101,9 +101,9 @@ M.modus_operandi = {
 	fg_active = "#0a0a0a",
 	fg_inactive = "#0a0a0a",
 	-- Status line specific colors
-	bg_status_line_active = "#c8c8c8",
+	bg_status_line_active = "#e1f3fc",
 	fg_status_line_active = "#0a0a0a",
-	bg_status_line_inactive = "#e6e6e6",
+	bg_status_line_inactive = "#e1f3fc",
 	fg_status_line_inactive = "#585858",
 	-- tab bar colors for tab pages
 	bg_tab_bar = "#dfdfdf",
